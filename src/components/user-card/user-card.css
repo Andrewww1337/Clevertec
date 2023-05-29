@@ -1,0 +1,66 @@
+.user-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.user-card > p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+.user-avatar-in-header {
+  width: 58px;
+  height: 58px;
+  border-radius: 150px;
+  margin-left: 16px;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+    0px 1px 5px rgba(191, 196, 201, 0.24);
+}
+.fa-button {
+  border: none;
+  background-color: inherit;
+}
+.user-log-control > h5 {
+  max-width: 255px;
+  margin-bottom: 0px;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #363636;
+}
+.user-log-control > button > h5 {
+  max-width: 255px;
+  margin-bottom: 0px;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #363636;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.logOutbutton {
+  background-color: inherit;
+  border: none;
+  margin-top: 0;
+}
+.user-log-control {
+  position: absolute;
+  right: 0px;
+  top: 55px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px rgba(54, 54, 54, 0.05), -4px 4px 4px rgba(54, 54, 54, 0.05);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  z-index: 1;
+  width: 270px;
+  padding-right: 24px;
+}

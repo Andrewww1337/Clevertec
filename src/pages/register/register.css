@@ -1,0 +1,38 @@
+.registration-page {
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.companyLogo {
+  margin-top: 180px;
+  margin-bottom: 48px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.registration-label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #363636;
+}
+@media (max-width: 550px) {
+  .companyLogo {
+    margin-top: 16px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+  }
+}

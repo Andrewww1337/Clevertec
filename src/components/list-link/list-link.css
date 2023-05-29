@@ -1,0 +1,31 @@
+.category-active {
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.category-active > .list-category-title > h5 {
+  background-color: aquamarine;
+}
+.for-never-tests {
+  display: none;
+}
+.category-count-menu {
+  margin-left: 6px;
+  color: #a7a7a7;
+}
+.list-category-title {
+  margin: 0 0 16px 0;
+}
+.list-category-title > h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.active-list-category-title > h5 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}

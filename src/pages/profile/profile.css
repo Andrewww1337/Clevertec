@@ -1,0 +1,489 @@
+.input-helper-form {
+  margin-bottom: 18px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: rgb(244, 44, 79);
+  margin-left: 12px;
+}
+.add-avatar {
+  position: relative;
+  width: 160px;
+  height: 42px;
+  right: 0;
+  top: -42px;
+  border: none;
+  background: rgba(54, 54, 54, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-file {
+  position: relative;
+  display: inline-block;
+}
+.edit-profile-body-button {
+  width: 255px;
+  height: 52px;
+  background: inherit;
+  border: 1px solid #bfc4c9;
+  border-radius: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363636;
+  margin-right: 30px;
+  margin-top: 52px;
+  text-transform: uppercase;
+}
+.save-edit-button:disabled {
+  background: #ebebeb;
+}
+.save-edit-button {
+  width: 255px;
+  height: 52px;
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  border-radius: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+.input-file span {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  vertical-align: middle;
+  color: rgb(255 255 255);
+  text-align: center;
+
+  line-height: 22px;
+  height: 40px;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+}
+.input-file input[type='file'] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+/* Focus */
+.input-file input[type='file']:focus + span {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Hover/active */
+.input-file:hover span {
+  background-color: #59be6e;
+}
+.input-file:active span {
+  background-color: #2e703a;
+}
+
+/* Disabled */
+.input-file input[type='file']:disabled + span {
+  background-color: #eee;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 150px;
+  background-color: bisque;
+  overflow: hidden;
+}
+.avatar-img {
+  width: 160px;
+  height: 160px;
+}
+.about-user-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 32px;
+}
+.about-user-body {
+  margin-top: 92px;
+  background: #ffffff;
+}
+.change-info {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.user-name > h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 64px;
+}
+.user-name {
+  margin-left: 30px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.first-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.second-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.third-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.one-input-section {
+  display: flex;
+  flex-direction: column;
+}
+.login-change-input {
+  height: 56px;
+  position: relative;
+  width: 540px;
+  background-color: #f9f9fa;
+}
+.password-change-input {
+  position: relative;
+  width: 540px;
+  background: #f9f9fa;
+}
+.input-change-in-form-width-label:focus::placeholder {
+  color: aliceblue;
+}
+.input-change-in-form-width-label-error:focus::placeholder {
+  color: aliceblue;
+}
+.input-change-in-form {
+  font-family: 'Montserrat';
+  background: #f9f9fa;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 56px;
+  border-bottom: 1px solid #bfc4c9;
+  margin-bottom: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+.input-change-in-form-error {
+  font-family: 'Montserrat';
+  background: #f9f9fa;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 540px;
+  height: 56px;
+  border-bottom: 1px solid rgba(244, 44, 79, 1);
+  margin-bottom: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+.input-change-in-form-width-label {
+  font-family: 'Montserrat';
+  background: #f9f9fa;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 540px;
+  height: 38px;
+  border-bottom: 1px solid #bfc4c9;
+  margin-bottom: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+.input-change-in-form-width-label-error {
+  font-family: 'Montserrat';
+  background: #f9f9fa;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 540px;
+  height: 38px;
+  border-bottom: 1px solid rgba(244, 44, 79, 1);
+  margin-bottom: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+  display: flex;
+  flex-direction: column;
+}
+.booking-book-section {
+  margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+}
+.display-none {
+  display: none;
+}
+
+.about-booking-section {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a7a7a7;
+}
+.booking-books-section {
+  width: 1110px;
+  height: 218px;
+  position: relative;
+}
+.history-books-section {
+  width: 1110px;
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.history-books-section-active {
+  width: 1110px;
+  height: 550px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.booking-books-section-overdue {
+  filter: blur(10px);
+}
+
+.rent-book-section {
+  margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+}
+.history-book-section {
+  margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+}
+.history-book-section > h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+.empty-section {
+  width: 1110px;
+  height: 218px;
+  background: #6e76f1;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+}
+.empty-section > h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.1px;
+}
+.overdue-section {
+  background: rgba(255, 82, 83, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1110px;
+  height: 218px;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  z-index: 3;
+}
+.overdue-section > h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.1px;
+}
+.overdue-section > p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.swiper-in-profile > .swiper-pagination {
+  color: #363636;
+}
+.swiper-in-profile {
+  padding-bottom: 70px;
+}
+
+@media (max-width: 768px) {
+  .booking-books-section {
+    width: 640px;
+  }
+  .login-change-input {
+    width: 305px;
+  }
+
+  .password-change-input {
+    width: 305px;
+  }
+
+  .input-change-in-form-error {
+    width: 305px;
+  }
+  .input-change-in-form-width-label {
+    width: 305px;
+  }
+  .input-change-in-form-width-label-error {
+    width: 305px;
+  }
+  .one-input-section {
+    width: 305px;
+  }
+  .profile {
+    max-width: 640px;
+  }
+  .overdue-section {
+    width: 640px;
+  }
+  .empty-section {
+    width: 640px;
+  }
+  .history-books-section {
+    width: 640px;
+  }
+  .swiper-slide {
+    width: 300px;
+  }
+  .mySwiperSwiper {
+    width: 640px;
+  }
+}
+
+@media (max-width: 320px) {
+  .booking-books-section {
+    width: 288px;
+  }
+  .button-profile-section {
+    margin-left: 10px;
+  }
+  .login-change-input {
+    width: 288px;
+  }
+  .password-change-input {
+    width: 288px;
+  }
+  .empty-section > h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .overdue-section > h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .input-change-in-form-error {
+    width: 288px;
+  }
+  .input-change-in-form-width-label {
+    width: 288px;
+  }
+  .input-change-in-form-width-label-error {
+    width: 288px;
+  }
+  .one-input-section {
+    width: 288px;
+  }
+  .profile {
+    max-width: 288px;
+  }
+  .overdue-section {
+    width: 288px;
+  }
+  .empty-section {
+    width: 288px;
+  }
+  .history-books-section {
+    width: 288px;
+  }
+
+  .mySwiperSwiper {
+    width: 288px;
+  }
+  .about-user-header {
+    flex-direction: column;
+  }
+  .user-name > h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .user-name {
+    margin-left: 0px;
+  }
+  .first-line {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .second-line {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .third-line {
+    flex-direction: column;
+    gap: 14px;
+  }
+}

@@ -1,0 +1,34 @@
+.error-window {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(254, 235, 234, 1);
+  border: 1.5px solid #f42c4f;
+  padding: 28px 36px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.warning-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.warning-title > p {
+  margin-left: 28px;
+}
+.profile-add {
+  width: 100%;
+  max-width: 1110px;
+}
+@media (max-width: 768px) {
+  .profile-add {
+    max-width: 640px;
+  }
+}
+@media (max-width: 320px) {
+  .profile-add {
+    max-width: 288px;
+  }
+}

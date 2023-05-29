@@ -1,0 +1,336 @@
+.eye {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 16px;
+  top: calc(50% - 16px / 2);
+  border: none;
+  background-color: inherit;
+}
+.form-page {
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-helper-standart {
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #a7a7a7;
+  margin-left: 12px;
+}
+.input-helper {
+  margin-bottom: 18px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #a7a7a7;
+  margin-left: 12px;
+}
+.navigate-in-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.custom-error-input {
+  color: rgba(244, 44, 79, 1);
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  margin-bottom: 18px;
+}
+.error-input {
+  color: rgba(244, 44, 79, 1);
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  margin-bottom: 18px;
+  margin-left: 12px;
+}
+.error-input-helper {
+  color: rgba(244, 44, 79, 1);
+  height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  margin-left: 12px;
+}
+.login-input {
+  height: 56px;
+  position: relative;
+  width: 100%;
+  background-color: #f9f9fa;
+}
+.label-in-form {
+  height: 16px;
+  width: 416px;
+  border: none;
+}
+.input-in-form-width-label:focus::placeholder {
+  color: aliceblue;
+}
+.input-in-form-width-label-error:focus::placeholder {
+  color: aliceblue;
+}
+.input-in-form {
+  font-family: 'Montserrat';
+  background: #f9f9fa;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 416px;
+  height: 56px;
+  border-bottom: 1px solid #bfc4c9;
+  margin-bottom: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+.input-in-form-error {
+  font-family: 'Montserrat';
+  background: #f9f9fa;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 416px;
+  height: 56px;
+  border-bottom: 1px solid rgba(244, 44, 79, 1);
+  margin-bottom: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+.input-in-form-width-label {
+  font-family: 'Montserrat';
+  background: #f9f9fa;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 416px;
+  height: 38px;
+  border-bottom: 1px solid #bfc4c9;
+  margin-bottom: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+.input-in-form-width-label-error {
+  font-family: 'Montserrat';
+  background: #f9f9fa;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 416px;
+  height: 38px;
+  border-bottom: 1px solid rgba(244, 44, 79, 1);
+  margin-bottom: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+}
+.password-input {
+  position: relative;
+  width: 100%;
+  background: #f9f9fa;
+}
+.check-mark {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 37px;
+  top: calc(50% - 10px / 2);
+  border: none;
+  background-color: inherit;
+}
+.form-label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #363636;
+  margin-bottom: 32px;
+}
+.steps {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+  letter-spacing: 0.1px;
+  margin-bottom: 32px;
+  margin-top: 8px;
+}
+
+.submit-button {
+  width: 416px;
+  height: 52px;
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  border-radius: 30px;
+  border: none;
+  margin-top: 32px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+}
+.submit-button:disabled {
+  width: 416px;
+  height: 52px;
+  background: rgba(235, 235, 235, 1);
+  border-radius: 30px;
+  border: none;
+  margin-top: 32px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+}
+.form-footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  align-items: center;
+}
+.question-form {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  line-height: 24px;
+  margin-right: 16px;
+}
+.link-in-form {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  align-items: center;
+  display: flex;
+}
+.arrow-in-form {
+  margin-left: 15px;
+}
+.conteiner {
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 48px 56px;
+}
+.conteiner-special {
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 0 0 16px 16px;
+  padding: 32px 56px 48px 56px;
+}
+.recovery-form {
+  margin: 0 auto;
+  border-radius: 16px 16px 0 0;
+  color: #727272;
+}
+.navigate-in-form {
+  height: 64px;
+  border-radius: 16px 16px 0 0;
+  background: #f9f9fa;
+}
+.navigate-in-form > p {
+  margin-left: 15px;
+}
+.arrowLeft {
+  margin-left: 19px;
+}
+.modal-conteiner {
+  align-items: center;
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 48px 56px;
+}
+.modal-message {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #363636;
+  text-align: center;
+}
+.hidden-eye {
+  display: none;
+}
+@media (max-width: 550px) {
+  .conteiner {
+    width: 288px;
+    padding: 24px 16px 27px;
+  }
+  .conteiner-special {
+    width: 288px;
+    padding: 32px 16px 45px 16px;
+  }
+  .input-in-form {
+    width: 256px;
+  }
+  .input-in-form-error {
+    width: 256px;
+  }
+  .input-in-form-width-label {
+    width: 256px;
+  }
+  .input-in-form-width-label-error {
+    width: 256px;
+  }
+  .submit-button {
+    width: 256px;
+  }
+  .submit-button:disabled {
+    width: 256px;
+  }
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    align-items: start;
+  }
+  .form-footer :last-child {
+    margin-top: 7px;
+  }
+  .modal-conteiner {
+    width: 288px;
+    padding: 42px 16px 32px;
+  }
+}

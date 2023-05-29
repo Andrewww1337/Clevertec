@@ -1,0 +1,24 @@
+.layout-menu {
+  display: flex;
+  flex-direction: row;
+  max-width: 1150px;
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+.for-amazing-tests {
+  display: none;
+}
+.layout-menu-outlet {
+  width: 100%;
+}
+.layout-menu-medium {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.layout-nemu-loading {
+  min-height: calc(100vh - 203px);
+}
+.layout-nemu-loading-medium {
+  min-height: calc(100vh - 225px);
+}

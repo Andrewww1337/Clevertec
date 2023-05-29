@@ -1,0 +1,318 @@
+.link {
+  list-style: none;
+}
+.titleSelection {
+  color: rgb(255, 82, 83);
+}
+.small-book-card-profile {
+  display: flex;
+  flex-direction: column;
+
+  height: 470px;
+  width: 255px;
+  justify-content: space-between;
+
+  padding: 8px 8px 16px 8px;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+    0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 10px;
+}
+.book-card-in-profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.book-image {
+  border-radius: 10px;
+  max-width: 174px;
+  height: 242px;
+  border: 1px solid #a7a7a7;
+}
+
+.book-card-info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-card-about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.small-book-card-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  text-align: left;
+}
+
+.small-book-card-author {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #727272;
+  margin-bottom: 28px;
+  text-align: start;
+}
+
+.book-card-button-section {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+}
+
+.book-card-button {
+  width: 166px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  border: none;
+}
+
+.return-book {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ff5253;
+}
+.book-card-button-booked {
+  width: 166px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0 auto;
+  background: #f9f9fa;
+  border-radius: 20px;
+  color: #363636;
+  border: 1px solid #bfc4c9;
+}
+
+.book-card-button-horizontal-booked:disabled {
+  color: #a7a7a7;
+}
+.book-card-button-booked:disabled {
+  color: #a7a7a7;
+}
+.grade-button-card-profile {
+  width: 239px;
+  height: 40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.regrade-button-card-profile {
+  width: 239px;
+  height: 40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #bfc4c9;
+  outline: none;
+  color: #363636;
+  margin: 0 auto;
+}
+.small-stars-panel {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .small-book-card-profile {
+    width: 190px;
+  }
+  .grade-button-card-profile {
+    width: 166px;
+  }
+  .regrade-button-card-profile {
+    width: 166px;
+  }
+  .book-card-title-horizontal {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .book-card-author {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #727272;
+    margin-bottom: 28px;
+  }
+  .book-card-author-horizontal {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #727272;
+  }
+}
+@media (max-width: 320px) {
+  .small-book-card-profile {
+    width: 288px;
+  }
+  .grade-button-card-profile {
+    width: 256px;
+  }
+  .regrade-button-card-profile {
+    width: 256px;
+  }
+  .book-card-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .book-card-title-horizontal {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363636;
+  }
+  .book-card-author {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #727272;
+    margin-bottom: 28px;
+  }
+  .book-card-author-horizontal {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #727272;
+  }
+  .book-card {
+    height: 470px;
+    width: 288px;
+    justify-content: space-between;
+    padding: 8px 16px 16px 16px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  .book-card-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 288px;
+    height: 182px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 16px 16px 16px 8px;
+    gap: 10px;
+  }
+  .image-block {
+    display: flex;
+    width: 256px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .image-block-horizontal {
+    width: 70px;
+    height: 100px;
+  }
+  .book-image {
+    border-radius: 10px;
+    width: 174px;
+    min-height: 242px;
+    margin: 0 auto;
+  }
+  .book-image-horizontal {
+    border-radius: 3px;
+    width: 70px;
+    height: 100px;
+  }
+  .book-card-info-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .book-card-info-section-horizontal {
+    display: flex;
+    flex-direction: column;
+    max-width: 649px;
+    width: 100%;
+    padding: 0px;
+    gap: 3px;
+  }
+
+  .book-card-about {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .book-card-button-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .book-card-button-section-horizontal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .book-card-button {
+    width: 256px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: white;
+    border: none;
+  }
+  .book-card-button-horizontal {
+    width: 186px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 16px;
+  }
+  .book-card-button-booked {
+    width: 256px;
+    height: 40px;
+    margin: 0 auto;
+    background: #f9f9fa;
+    border-radius: 20px;
+    color: #a7a7a7;
+    border: 1px solid #bfc4c9;
+  }
+  .book-card-button-horizontal-booked {
+    width: 186px;
+    height: 40px;
+    border: 1px solid #bfc4c9;
+    background: #f9f9fa;
+    border-radius: 20px;
+    color: #a7a7a7;
+    margin-top: 16px;
+  }
+}

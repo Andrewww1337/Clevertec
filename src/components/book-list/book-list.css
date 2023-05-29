@@ -1,0 +1,87 @@
+.book-list {
+  display: flex;
+  gap: 21.5px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 32px;
+}
+.disabled-preloader {
+  display: none;
+}
+.clear-books-list {
+  display: flex;
+  min-height: 45vh;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+
+  align-items: center;
+}
+.clear-book-list-invisible {
+  display: none;
+}
+.clear-books-list > p {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(16px + 16 * (100vw / 1440));
+  line-height: 40px;
+  color: #a7a7a7;
+  display: flex;
+  flex-direction: row;
+}
+.clear-books-list > p > :last-child {
+  margin-left: 10px;
+}
+.book-list-horizontal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+@media (max-width: 768px) {
+  .book-list {
+    gap: 35px;
+    margin: 24px auto 0 auto;
+  }
+  .clear-books-list > p {
+    font-size: calc(16px + 16 * (100vw / 768));
+  }
+  .clear-books-list {
+    min-height: calc(100vh - 300px);
+  }
+  .book-list-horizontal {
+    gap: 16px;
+    margin-top: 32px;
+  }
+}
+@media (max-width: 467px) {
+  .clear-books-list > p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .book-list {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin: 16px auto 0 auto;
+    word-wrap: break-word;
+  }
+  .clear-books-list > p {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .book-list-horizontal {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px auto 0 auto;
+  }
+}
